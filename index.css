@@ -1,0 +1,81 @@
+/* FONT */
+@font-face {
+    font-family: 'CursedTimer';
+    src: locak("CursedTimer"), url("font/CursedTimer.ttf");
+}
+
+/* GENERAL */
+body {
+    margin: 0;
+    background: #364F6B;
+    text-align: center;
+}
+
+/* TITLE SECTION */
+
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 64px;
+    color: #F5F5F5;
+    margin: 0px auto;
+}
+
+h3 {
+    margin: 50px auto 30px auto;
+}
+
+h5 {
+    margin: 0px auto 20px auto;
+    font-size: 32px;
+}
+
+/* SCORE SECTION */
+.score {
+    margin: 0px auto;
+    width: 150px;
+    text-align: center;
+    background: #F5F5F5;
+    padding: 50px;
+    color: #FC5185;
+    font-size: 70px;
+    border: 20px double #FC5185;
+    border-radius: 20%;
+    font-family: 'CursedTimer';
+}
+
+/* BUTTON SECTION */
+.btn-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-btn-container {
+    background: #3FC1C9;
+    padding: 30px;
+    border: 5px solid #0174BE
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 3px double #FC5185;
+    background: white;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "CursedTimer";
+    border-radius: 10%
+}
+
+.reset-btn {
+    padding: 10px 15px;
+    background: white;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px double #FC5185;
+    border-radius: 10%
+    
+}
